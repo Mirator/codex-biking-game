@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride the Horizon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <canvas id="horizon-canvas" aria-label="Ride the Horizon watercolor landscape"></canvas>
+      <section class="overlay" aria-live="polite">
+        <header class="overlay__header">
+          <h1>Ride the Horizon</h1>
+          <p>Hold <kbd>space</kbd> to pedal. Use <kbd>&larr;</kbd> and <kbd>&rarr;</kbd> to lean between calm and swift moods. Pause and listen when the world calls.</p>
+        </header>
+        <div class="overlay__memories" id="memories"></div>
+        <footer class="overlay__footer">
+          <button id="toggle-sound" type="button" aria-pressed="false">Enable sound</button>
+        </footer>
+      </section>
+    </main>
+    <script type="module" src="js/ride-the-horizon.js"></script>
+  </body>
+</html>
