@@ -21,6 +21,97 @@
           <p>Hold <kbd>space</kbd> to pedal. Use <kbd>&larr;</kbd> and <kbd>&rarr;</kbd> to lean between calm and swift moods. Pause and listen when the world calls.</p>
         </header>
         <div class="overlay__memories" id="memories"></div>
+        <details class="overlay__design-doc">
+          <summary>🎨 Game Design Document</summary>
+          <article>
+            <h2>Project Title (Working): “Ride the Horizon”</h2>
+            <p>
+              <strong>Type:</strong> 2D Endless Exploration Game<br />
+              <strong>Platform:</strong> Web (HTML5, WebGL, JavaScript/TypeScript)<br />
+              <strong>Initial Development:</strong> ChatGPT Codex Prototype<br />
+              <strong>Visual Style:</strong> Watercolor, painterly, surreal<br />
+              <strong>Perspective:</strong> 2D side-scrolling
+            </p>
+            <section>
+              <h3>1. High Concept</h3>
+              <p>
+                <em>Elevator Pitch:</em> “Ride the Horizon” is a meditative watercolor exploration game where you endlessly ride a
+                bike through living, hand-painted worlds that react to your pace, discoveries, and mood.
+              </p>
+              <p>
+                There’s no winning, losing, or scoring — only motion, discovery, and reflection. Every journey becomes a unique
+                watercolor dream.
+              </p>
+              <ul>
+                <li><strong>Genre:</strong> Endless Exploration / Ambient Adventure</li>
+                <li><strong>Mood:</strong> Calm, introspective, magical realism</li>
+                <li><strong>Platform Goal:</strong> Playable in-browser, responsive, lightweight</li>
+              </ul>
+            </section>
+            <section>
+              <h3>2. Vision &amp; Player Fantasy</h3>
+              <p>
+                You are a traveler on an infinite watercolor journey — pedaling through shifting landscapes where color, sound, and
+                emotion flow together.
+              </p>
+              <p>The player should feel:</p>
+              <ul>
+                <li>Calm from rhythm and motion</li>
+                <li>Wonder at each new world</li>
+                <li>Connection through memories left behind</li>
+              </ul>
+            </section>
+            <section>
+              <h3>3. Core Gameplay Loop</h3>
+              <p>Loop Summary: <strong>Ride → Discover → Interact → Reflect → Continue</strong></p>
+              <p>A minimal, meditative cycle that rewards curiosity and flow rather than skill or speed.</p>
+              <div class="design-doc__table-wrapper">
+                <table>
+                  <thead>
+                    <tr>
+                      <th scope="col">Stage</th>
+                      <th scope="col">Player Action</th>
+                      <th scope="col">Game Response</th>
+                      <th scope="col">Emotional Effect</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Ride</th>
+                      <td>Pedal by holding a key or swiping; adjust pace.</td>
+                      <td>Terrain scrolls smoothly; watercolor effects react to motion.</td>
+                      <td>Calm immersion.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Discover</th>
+                      <td>Notice unique scenery, creature, or symbol.</td>
+                      <td>Visual/audio cues draw attention.</td>
+                      <td>Curiosity, wonder.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Interact</th>
+                      <td>Slow or stop to observe.</td>
+                      <td>Unlock a memory fragment or musical motif.</td>
+                      <td>Connection, reflection.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Reflect</th>
+                      <td>Ride onward; world subtly changes based on discovery.</td>
+                      <td>Color palette and music evolve.</td>
+                      <td>Continuity, emotion.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Continue</th>
+                      <td>Keep riding; transition to next biome.</td>
+                      <td>World remains seamless.</td>
+                      <td>Serenity, curiosity.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </article>
+        </details>
         <footer class="overlay__footer">
           <button id="toggle-sound" type="button" aria-pressed="false">Enable sound</button>
         </footer>
